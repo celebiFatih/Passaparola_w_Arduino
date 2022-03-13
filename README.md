@@ -1,6 +1,7 @@
 # Arduino ile Passaparola Yarışması
 Geçtiğimiz yıllarda sevilerek izlenen ve Metin Uca'nın sunumuyla özdeşleşmiş olan bir bilgi yarışması TV programı olan Passaparola, C# programlama dili ve arduino uno mikrodenetleyici kartı ile birlikte kullanılarak modellenmiştir. Bu proje Mikroişlemciler dersi için geliştirilmiştir.
 Uygulama tanıtım videosuna [buradan](https://www.youtube.com/watch?v=nU3hGvrmQC4) ulaşabilirsiniz.
+
 ---
 ## C# Haberleşmesi ile LED Yakma
 Tasarlanan bu proje ile, C# programlama dili kullanılarak geliştirilen Passaparola adlı, kullanıcıya yöneltilen genel kültür sorularının doğru ya da yalış cevaplandırılmasına göre ilerleyen bir program aracılığıyla Arduino UNO mikrodenetleyicisi üzerinden elektronik veriler ile fiziksel ortamda çıktılar alınması amaçlanmaktadır. Kullanıcı, kendisine yönlendirilen soruya doğru cevap verirse doğru cevap verildiğini temsil eden yeşil led ve ses ile, yanlış cevap vermesi halinde kırmızı led ile ses çıkışının alınması sağlanmıştır. Projede elektronik çıktılar almak için bir adet Arduino UNO R3 mikrodenetleyici kart, kırmızı ve yeşil olmak üzere iki adet LED, bir adet buzzer, 3 adet 330 ohm direnç, 6 adet jumper kablo ve bir adet breadboard kullanılmıştır.
