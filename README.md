@@ -1,10 +1,10 @@
 # Arduino ile Passaparola Yarışması
-Geçtiğimiz yıllarda sevilerek izlenen ve Metin Uca'nın sunumuyla özdeşleşmiş olan bir bilgi yarışması TV programı olan Passaparola, C# programlama dili ve arduino uno mikrodenetleyici kartı ile birlikte kullanılarak modellenmiştir. Bu proje Mikroişlemciler dersi için geliştirilmiştir.
+Geçtiğimiz yıllarda sevilerek izlenen ve Metin Uca'nın sunumuyla özdeşleşmiş olan bir bilgi yarışması TV programı olan Passaparola, C# programlama dili ve arduino uno mikrodenetleyici kartı ile birlikte kullanılarak modellenmiştir.
 Uygulama tanıtım videosuna [buradan](https://www.youtube.com/watch?v=nU3hGvrmQC4) ulaşabilirsiniz.
 
 ---
 ## C# Haberleşmesi ile LED Yakma
-Tasarlanan bu proje ile, C# programlama dili kullanılarak geliştirilen Passaparola adlı, kullanıcıya yöneltilen genel kültür sorularının doğru ya da yalış cevaplandırılmasına göre ilerleyen bir program aracılığıyla Arduino UNO mikrodenetleyicisi üzerinden elektronik veriler ile fiziksel ortamda çıktılar alınması amaçlanmaktadır. Kullanıcı, kendisine yönlendirilen soruya doğru cevap verirse doğru cevap verildiğini temsil eden yeşil led ve ses ile, yanlış cevap vermesi halinde kırmızı led ile ses çıkışının alınması sağlanmıştır. Projede elektronik çıktılar almak için bir adet Arduino UNO R3 mikrodenetleyici kart, kırmızı ve yeşil olmak üzere iki adet LED, bir adet buzzer, 3 adet 330 ohm direnç, 6 adet jumper kablo ve bir adet breadboard kullanılmıştır.
+Bu proje , C# programlama dili kullanılarak geliştirilen Passaparola adlı, kullanıcıya yöneltilen genel kültür sorularının doğru ya da yalış cevaplandırılmasına göre ilerleyen ve Arduino UNO mikrodenetleyicisi üzerinden elektronik veriler ile fiziksel ortamda çıktılar alınması amaçlanmaktadır. Kullanıcı, kendisine yönlendirilen soruya doğru cevap verirse doğru cevap verildiğini temsil eden yeşil led ve ses ile yanlış cevap vermesi halinde kırmızı led ile ses çıkışının alınması sağlanmıştır. Projede elektronik çıktılar almak için bir adet Arduino UNO R3 mikrodenetleyici kart, kırmızı ve yeşil olmak üzere iki adet LED, bir adet buzzer, 3 adet 330ohm direnç, 6 adet jumper kablo ve bir adet breadboard kullanılmıştır.
 
 > Uygulama Ekranı:
 > 
@@ -13,7 +13,7 @@ Tasarlanan bu proje ile, C# programlama dili kullanılarak geliştirilen Passapa
 Arduino UNO R3 mikrodenetleyici kart üzerinde 8 bitlik ATmega328 mikrodenetleyici bulunmaktadır. ATmega328, 32 kb (önyükleyici için kullanılan 0,5 kb) Flash belleğe sahiptir ve 2 kb SRAM ile 1 kb EEPROM’ a sahiptir. Üzerindeki 14 dijital pin pinMode(), digitalWrite() ve digitalRead() fonksiyonları kullanılarak giriş ve çıkış birimleri olarak kullanılabilir. 6 adet analog girişe sahip olmakla birlikte 5V’ ta çalışırlar ve her pin maksimum 40 mA sağlayabilir ya da alabilir. 
 
 Arduino Uno, Arduino IDE’ si kullanılarak programlanabilir. ATmega328, harici bir donanım programcısı kullanmadan yeni kod yüklemenize izin veren bir önyükleyici ile önceden yüklenmiş olarak gelir. Atmel AVR Flash mikrodenetleyicileri için bir başlangıç kiti ve geliştirme sistemi olan STK500 protokolünü kullanarak iletişim kurar.
-Bu projede Arduino mikrodenetleyici kartı programlamak için Arduino programlama dili kullanılacaktır. Arduino programlama dili, temelde C/C++/Java tabanlı IDE, açık kaynak kodlu ve platform bağımsızdır.
+Bu projede Arduino mikrodenetleyici kartı programlamak için Arduino programlama dili kullanılmıştır. Arduino programlama dili, temelde C/C++/Java tabanlı IDE, açık kaynak kodlu ve platform bağımsızdır.
 
 > Devre Çizimi:
 > 
